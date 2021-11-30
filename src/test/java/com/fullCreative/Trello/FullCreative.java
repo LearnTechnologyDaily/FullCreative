@@ -177,7 +177,7 @@ public class FullCreative {
 
 			driver.findElement(By.xpath("//input[@value='Log in with Atlassian' and @type='submit']")).click();
 
-			driver.findElement(By.id("password")).sendKeys("$Bun%$&#");
+			driver.findElement(By.id("password")).sendKeys("");
 
 			driver.findElement(By.xpath("//button[@id='login-submit' and @type='submit']")).click();
 		} catch (Exception e) {
